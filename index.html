@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- include A-Frame obviously -->
+		<script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
+		<!-- include ar.js for A-Frame -->
+		<script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+	</head>
+	<body style='margin : 0px; overflow: hidden;'>
+		<a-scene embedded arjs>
+			<a-assets>
+			<a-asset-item id="Heart" src="Heart.obj"></a-asset-item>
+		<a-asset-item id="Heart_mtl" src="Heart.mtl"></a-asset-item>
+	</a-assets>
+	<a-marker type="pattern" url="pattern-marker.patt">
+		<a-entity obj-model="obj: #Heart; mtl: #Heart_mtl" position="0 0 0" rotation="-90 0 0" scale="0.01 0.01 0.01">
+		<a-text value="Artifact Name"></a-text>
+               
+		
+	</a-entity>
+                <a-text align="center"  color="red" height="3" position="0 -10 0" rotation="-90 0 0" value="\n Bovine Heart \n Chellapillai C.V.S " width="3">
+                
+
+</a-marker>
+<a-entity camera></a-entity>
+</a-scene>
+</body>
+</html>
