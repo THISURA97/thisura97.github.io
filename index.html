@@ -22,22 +22,18 @@
             <a-text value="Amarasekara T.N.E." rotation="-90 0 0" scale="1 1 1"></a-text>
         </a-marker>
 
-         <!-- handle custom marker -->
+        <!-- handle custom marker -->
 
-         <a-assets>
-			<a-asset-item id="Heart" src="/models/vajira/Heart.obj"></a-asset-item>
-	    </a-assets>
-
-        <a-marker-camera type="pattern" url="/models/vajira/pattern-marker.patt">
-            <a-entity obj-model="obj: #Heart  position="0 0 0" rotation="-90 0 0" scale="0.01 0.01 0.01">
+        <a-marker preset='blank'>
+            <a-entity rotation="-90 0 0" position="0 0 0" scale="1 1 1" obj-model="/models/vajira/Heart.obj"></a-entity>
             <a-text value="Chellapillai C.V.S " rotation="-90 0 0" scale="1 1 1"></a-text>
-        <a-marker-camera>
+        <a-marker>
 
 	</a-entity>
 
 
 
-</a-marker-camera>
+</a-marker>
 
         <a-entity camera></a-entity>
 
