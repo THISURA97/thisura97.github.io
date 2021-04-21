@@ -9,11 +9,7 @@
 <body style="margin : 0px; overflow: hidden;">
 
     <a-scene embedded arjs>
-        
-        <a-assets>
-		    <a-asset-item id="Heart" src="Models/Heart.obj"></a-asset-item>
-		    <a-asset-item id="Heart_mtl" src="Models/Heart.mtl"></a-asset-item>
-	    </a-assets>
+
 
         <a-marker preset="hiro">
             <a-entity rotation="-90 0 0" position="0 0 0" scale="1.2 1.2 1.2" gltf-model="/models/thisura/scene.gltf"></a-entity>
@@ -25,21 +21,28 @@
             <a-entity rotation="-90 0 0" position="0 0 0" scale="1 1 1" gltf-model="/models/nipun/scene.gltf"></a-entity>
             <a-text value="Amarasekara T.N.E." rotation="-90 0 0" scale="1 1 1"></a-text>
         </a-marker>
-        
+
          <!-- handle custom marker -->
-        <a-marker type="pattern" url="Models/pattern-marker.patt">
-		    <a-entity obj-model="obj: #Heart; mtl: #Heart_mtl" position="0 0 0" rotation="-90 0 0" scale="0.01 0.01 0.01">
+
+         <a-assets>
+			<a-asset-item id="Heart" src="/models/Heart.obj"></a-asset-item>
+		<a-asset-item id="Heart_mtl" src="/models/Heart.mtl"></a-asset-item>
+	</a-assets>
+
+        <a-marker type="pattern" url="/models/vajira/pattern-marker.patt">
+            <a-entity obj-model="obj: #Heart; mtl: #Heart_mtl" position="0 0 0" rotation="-90 0 0" scale="0.01 0.01 0.01">
             <a-text value="Chellapillai C.V.S " rotation="-90 0 0" scale="1 1 1"></a-text>
-		
+        <a-marker>
+
 	</a-entity>
-                
-                
+
+
 
 </a-marker>
 
         <a-entity camera></a-entity>
-        
-        
+
+
     </a-scene>
 </body>
 
