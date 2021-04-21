@@ -26,19 +26,18 @@
 
          <a-assets>
 			<a-asset-item id="Heart" src="/models/Heart.obj"></a-asset-item>
-		<a-asset-item id="Heart_mtl" src="/models/Heart.mtl"></a-asset-item>
-	</a-assets>
+	    </a-assets>
 
-        <a-marker type="pattern" url="/models/vajira/pattern-marker.patt">
-            <a-entity obj-model="obj: #Heart; mtl: #Heart_mtl" position="0 0 0" rotation="-90 0 0" scale="0.01 0.01 0.01">
+        <a-marker-camera type="pattern" url="/models/vajira/pattern-marker.patt">
+            <a-entity obj-model="obj: #Heart  position="0 0 0" rotation="-90 0 0" scale="0.01 0.01 0.01">
             <a-text value="Chellapillai C.V.S " rotation="-90 0 0" scale="1 1 1"></a-text>
-        <a-marker>
+        <a-marker-camera>
 
 	</a-entity>
 
 
 
-</a-marker>
+</a-marker-camera>
 
         <a-entity camera></a-entity>
 
