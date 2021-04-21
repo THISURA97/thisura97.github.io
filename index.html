@@ -16,19 +16,26 @@
             <a-text value="Navanajana E.H.D.T.D." align="center" rotation="-90 0 0" scale="2 2 2"></a-text>
         </a-marker>
 
-        <!-- handle kanji marker
+        <!-- handle kanji marker -->
         <a-marker preset='kanji'>
             <a-entity rotation="-90 0 0" position="0 0 0" scale="1 1 1" gltf-model="/models/nipun/scene.gltf"></a-entity>
             <a-text value="Amarasekara T.N.E." rotation="-90 0 0" scale="1 1 1"></a-text>
-        </a-marker> -->
+        </a-marker>
 
         <!-- handle custom marker -->
 
-        <a-marker preset="hiro">
-            <a-entity  position="0 0 0" scale="-1 1 1" gltf-model="/models/vajira/scene.gltf"></a-entity>
-            <a-text value="Chellapillai C.V.S "align="center" rotation="-90 0 0" scale="2 2 2"></a-text>
-        <a-marker>
+        <a-assets>
+			<a-asset-item id="Heart" src="/models/vajira/Heart.obj"></a-asset-item>
+	    	<a-asset-item id="Heart_mtl" src="/models/vajira/Heart.mtl"></a-asset-item>
+	    </a-assets>
 
+        <a-marker type="pattern" url="Models/pattern-marker.patt">
+		    <a-entity obj-model="obj: #Heart; mtl: #Heart_mtl" position="0 0 0" rotation="-90 0 0" scale="0.01 0.01 0.01">
+		    <a-text value="Artifact Name"></a-text>
+            </a-entity>
+
+            <a-text align="center"  color="red" height="3" position="0 -10 0" rotation="-90 0 0" value="\n Bovine Heart \n Chellapillai C.V.S " width="3">
+        </a-marker>
         <a-entity camera></a-entity>
 
 
