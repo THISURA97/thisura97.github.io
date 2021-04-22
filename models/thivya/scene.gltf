@@ -3,24 +3,24 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 65533,
+      "count": 25425,
       "max": [
-        1,
-        0.45433899760246277,
-        0.255746990442276
+        0.9799656867980957,
+        0.9981115460395813,
+        0.97996562719345093
       ],
       "min": [
-        -1,
-        -0.46420601010322571,
-        -0.255746990442276
+        -0.9799656867980957,
+        -0.9981115460395813,
+        -0.9799659252166748
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 786396,
+      "byteOffset": 305100,
       "componentType": 5126,
-      "count": 65533,
+      "count": 25425,
       "max": [
         1,
         1,
@@ -36,142 +36,28 @@
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 65533,
+      "count": 25425,
       "max": [
-        0.99999332427978516,
         1,
+        0.076714575290679932,
         1,
         1
       ],
       "min": [
-        -0.99999284744262695,
         -1,
+        -0.076713547110557556,
         -1,
-        -1
+        1
       ],
       "type": "VEC4"
     },
     {
-      "bufferView": 2,
-      "byteOffset": 1572792,
-      "componentType": 5126,
-      "count": 65533,
-      "max": [
-        1,
-        1,
-        1
-      ],
-      "min": [
-        0,
-        0,
-        0
-      ],
-      "type": "VEC3"
-    },
-    {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 65533,
+      "count": 25425,
       "max": [
-        1,
-        0.99972999095916748
-      ],
-      "min": [
-        0,
-        -0.00017786500393413007
-      ],
-      "type": "VEC2"
-    },
-    {
-      "bufferView": 0,
-      "componentType": 5125,
-      "count": 218991,
-      "max": [
-        65532
-      ],
-      "min": [
-        0
-      ],
-      "type": "SCALAR"
-    },
-    {
-      "bufferView": 2,
-      "byteOffset": 2359188,
-      "componentType": 5126,
-      "count": 10843,
-      "max": [
-        0.95011097192764282,
-        0.46420601010322571,
-        0.255746990442276
-      ],
-      "min": [
-        -1,
-        -0.46419298648834229,
-        -0.255746990442276
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 2,
-      "byteOffset": 2489304,
-      "componentType": 5126,
-      "count": 10843,
-      "max": [
-        0.99987876415252686,
-        1,
-        0.99999862909317017
-      ],
-      "min": [
-        -0.99986833333969116,
-        -1,
-        -0.99998664855957031
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 3,
-      "byteOffset": 1048528,
-      "componentType": 5126,
-      "count": 10843,
-      "max": [
-        0.99977433681488037,
-        0.99956262111663818,
-        0.99991995096206665,
+        1.0000001192092896,
         1
-      ],
-      "min": [
-        -0.99999654293060303,
-        -0.9999845027923584,
-        -1,
-        -1
-      ],
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 2,
-      "byteOffset": 2619420,
-      "componentType": 5126,
-      "count": 10843,
-      "max": [
-        1,
-        1,
-        1
-      ],
-      "min": [
-        0,
-        0.062745101749897003,
-        0
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 1,
-      "byteOffset": 524264,
-      "componentType": 5126,
-      "count": 10843,
-      "max": [
-        0.99882298707962036,
-        0.99638700485229492
       ],
       "min": [
         0,
@@ -181,11 +67,10 @@
     },
     {
       "bufferView": 0,
-      "byteOffset": 875964,
       "componentType": 5125,
-      "count": 29787,
+      "count": 149760,
       "max": [
-        10842
+        25424
       ],
       "min": [
         0
@@ -195,42 +80,42 @@
   ],
   "asset": {
     "extras": {
-      "author": "berkgedik (https://sketchfab.com/berkgedik)",
+      "author": "hishamhamid (https://sketchfab.com/hishamhamid)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/cyberpunk-bike-concept-design-99290272e69d4cd8a56af2d2e1274e0d",
-      "title": "Cyberpunk Bike Concept Design"
+      "source": "https://sketchfab.com/models/439de097307b4a37ac626a2a5f990e81",
+      "title": "(FREE) 3D Earth Model"
     },
-    "generator": "Sketchfab-5.81.0",
+    "generator": "Sketchfab-3.27.3",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 995112,
+      "byteLength": 599040,
       "byteOffset": 0,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 611008,
-      "byteOffset": 995112,
+      "byteLength": 203400,
+      "byteOffset": 599040,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 2749536,
-      "byteOffset": 1606120,
+      "byteLength": 610200,
+      "byteOffset": 802440,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 1222016,
-      "byteOffset": 4355656,
+      "byteLength": 406800,
+      "byteOffset": 1412640,
       "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
@@ -238,47 +123,24 @@
   ],
   "buffers": [
     {
-      "byteLength": 5577672,
+      "byteLength": 1819440,
       "uri": "scene.bin"
     }
   ],
   "images": [
     {
-      "uri": "textures/DefaultMaterial_baseColor.jpeg"
-    },
-    {
-      "uri": "textures/DefaultMaterial_metallicRoughness.png"
-    },
-    {
-      "uri": "textures/DefaultMaterial_emissive.jpeg"
-    },
-    {
-      "uri": "textures/DefaultMaterial_normal.png"
+      "uri": "textures/lambert3_baseColor.jpeg"
     }
   ],
   "materials": [
     {
       "doubleSided": true,
       "emissiveFactor": [
-        1,
-        1,
-        1
+        0,
+        0,
+        0
       ],
-      "emissiveTexture": {
-        "index": 2,
-        "texCoord": 0
-      },
-      "name": "DefaultMaterial",
-      "normalTexture": {
-        "index": 3,
-        "scale": 1,
-        "texCoord": 0
-      },
-      "occlusionTexture": {
-        "index": 1,
-        "strength": 1,
-        "texCoord": 0
-      },
+      "name": "lambert3",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
           1,
@@ -290,45 +152,23 @@
           "index": 0,
           "texCoord": 0
         },
-        "metallicFactor": 1,
-        "metallicRoughnessTexture": {
-          "index": 1,
-          "texCoord": 0
-        },
-        "roughnessFactor": 1
+        "metallicFactor": 0,
+        "roughnessFactor": 0.59999999999999998
       }
     }
   ],
   "meshes": [
     {
-      "name": "defaultMaterial",
+      "name": "pSphere1_lambert3_0",
       "primitives": [
         {
           "attributes": {
-            "COLOR_0": 3,
             "NORMAL": 1,
             "POSITION": 0,
             "TANGENT": 2,
-            "TEXCOORD_0": 4
+            "TEXCOORD_0": 3
           },
-          "indices": 5,
-          "material": 0,
-          "mode": 4
-        }
-      ]
-    },
-    {
-      "name": "defaultMaterial",
-      "primitives": [
-        {
-          "attributes": {
-            "COLOR_0": 9,
-            "NORMAL": 7,
-            "POSITION": 6,
-            "TANGENT": 8,
-            "TEXCOORD_0": 10
-          },
-          "indices": 11,
+          "indices": 4,
           "material": 0,
           "mode": 4
         }
@@ -364,34 +204,53 @@
         0,
         0,
         0,
-        -4.3711390063094768e-08,
-        0.999999999999999,
+        0,
+        1,
         0,
         0,
-        -0.999999999999999,
-        -4.3711390063094768e-08,
+        -1,
+        0,
         0,
         0,
         0,
         0,
         1
       ],
-      "name": "Collada visual scene group"
+      "name": "3232b759bd6d438cae638e1541968b15.fbx"
     },
     {
       "children": [
-        4,
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
         5
       ],
-      "name": "Circle.003"
+      "matrix": [
+        8.0617275238037109,
+        0,
+        0,
+        0,
+        0,
+        8.0617275238037109,
+        0,
+        0,
+        0,
+        0,
+        8.0617275238037109,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "pSphere1"
     },
     {
       "mesh": 0,
-      "name": "defaultMaterial"
-    },
-    {
-      "mesh": 1,
-      "name": "defaultMaterial"
+      "name": "pSphere1_lambert3_0"
     }
   ],
   "samplers": [
@@ -415,18 +274,6 @@
     {
       "sampler": 0,
       "source": 0
-    },
-    {
-      "sampler": 0,
-      "source": 1
-    },
-    {
-      "sampler": 0,
-      "source": 2
-    },
-    {
-      "sampler": 0,
-      "source": 3
     }
   ]
 }
